@@ -1,0 +1,73 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 80px;
+    align-items: center;
+    padding: 0px 15px;
+}
+.headerlink {
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.basket{
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.urun-detay {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 85px;
+
+}
+
+.urun-resim {
+    flex: 1;
+    margin-left: 20px;
+
+}
+
+.urun-resim img {
+    width: 100%;
+    max-width: 275px;
+    height: auto;
+}
+
+.urun-bilgileri {
+    flex: 2;
+    padding: 0 50px 0 0;
+}
+
+.urun-bilgileri h2, .urun-bilgileri h3 {
+    margin: 0;
+}
+
+.urun-bilgileri .ozellik {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.sepete-ekle {
+    background-color: rgb(37, 150, 190);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 22px;
+    margin-left: 760px;
+}
+
+.sepete-ekle:hover {
+    background-color: #195e83;
+}
+.fiyat{
+    font-size: 30px;
+    font-weight: bolder;
+}
